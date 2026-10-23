@@ -15,3 +15,4 @@ companion/target/
 *.bak
 EOF
 
+.metadata/
