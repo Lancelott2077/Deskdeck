@@ -1,0 +1,17 @@
+cat > .gitignore << 'EOF'
+# CubeIDE build output
+Debug/
+Release/
+*.launch
+
+# Java / Maven build output
+companion/target/
+
+# macOS
+.DS_Store
+
+# CubeMX backup files
+*.ioc.bak
+*.bak
+EOF
+
