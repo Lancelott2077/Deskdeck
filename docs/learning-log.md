@@ -13,12 +13,8 @@ intial branch as master is initial branch for git and not github, so to avoid cr
 used the command and then we are pushing everything to the repo createat github online
 
 ## M1 — GPIO: LED and buttons
-
-**Predicted:**
-
-**Happened:**
-
-**Learned:**
+we use HAL functions which we referenced from hal include folder and wrote the functions, we have referred the main.h 
+and other includes files to check for function prototypes.
 
 ## M2 — Timer interrupts and debouncing
 
