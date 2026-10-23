@@ -55,7 +55,11 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
+<<<<<<< HEAD
 extern TIM_HandleTypeDef htim2;
+=======
+
+>>>>>>> feat/gpio-led-button
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -198,6 +202,7 @@ void SysTick_Handler(void)
 /* please refer to the startup file (startup_stm32f1xx.s).                    */
 /******************************************************************************/
 
+<<<<<<< HEAD
 /**
   * @brief This function handles TIM2 global interrupt.
   */
@@ -212,6 +217,8 @@ void TIM2_IRQHandler(void)
   /* USER CODE END TIM2_IRQn 1 */
 }
 
+=======
+>>>>>>> feat/gpio-led-button
 /* USER CODE BEGIN 1 */
 
 /* USER CODE END 1 */

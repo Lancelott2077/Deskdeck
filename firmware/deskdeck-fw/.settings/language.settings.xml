@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project>
+<<<<<<< HEAD
 	<configuration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.177320328" name="Debug">
+=======
+	<configuration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.572060018" name="Debug">
+>>>>>>> feat/gpio-led-button
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
 			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>
@@ -11,7 +15,11 @@
 			</provider>
 		</extension>
 	</configuration>
+<<<<<<< HEAD
 	<configuration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1947763096" name="Release">
+=======
+	<configuration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2002003690" name="Release">
+>>>>>>> feat/gpio-led-button
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
 			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>

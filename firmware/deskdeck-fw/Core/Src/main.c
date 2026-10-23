@@ -18,7 +18,10 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+<<<<<<< HEAD
 #include "tim.h"
+=======
+>>>>>>> feat/gpio-led-button
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -87,7 +90,10 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+<<<<<<< HEAD
   MX_TIM2_Init();
+=======
+>>>>>>> feat/gpio-led-button
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -99,6 +105,21 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+<<<<<<< HEAD
+=======
+	//  if(HAL_GPIO_ReadPin(BTN1_GPIO_Port,BTN1_Pin)== GPIO_PIN_RESET){
+	//	  HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin, GPIO_PIN_RESET);
+	//  }else{
+	//	  HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin, GPIO_PIN_SET);
+	//  }
+	  if (HAL_GPIO_ReadPin(BTN1_GPIO_Port, BTN1_Pin) == GPIO_PIN_RESET) {
+		  HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin, GPIO_PIN_RESET);
+	  }
+	  if (HAL_GPIO_ReadPin(BTN2_GPIO_Port, BTN2_Pin) == GPIO_PIN_RESET) {
+	 		  HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin, GPIO_PIN_SET);
+	 	  }
+
+>>>>>>> feat/gpio-led-button
   }
   /* USER CODE END 3 */
 }
