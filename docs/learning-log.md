@@ -16,18 +16,12 @@ used the command and then we are pushing everything to the repo createat github 
 
 we use HAL functions which we referenced from hal include folder and wrote the functions, we have referred the main.h 
 and other includes files to check for function prototypes.
-=======
 while opening the cubeide, i have come across the launch workspace pop-up i thought of this to be the same folder as 
 my project and then tried importing my project but it failed to do so, then i realised that the terms workspace and 
 project folder where fundamentally 2 diff things , the ide asks for workspace to create metadata and it must always be
 noted that the workspace and project folder must be in two different folders.
 
 ## M2 — Timer interrupts and debouncing
-Here's a draft for your log. Reword it in your own voice before saving — notes you've rephrased yourself stick better than pasted ones.
-
----
-
-## M2 — Button debounce and timer interrupts
 
 What bouncing is ?
 A push button is two metal contacts that spring together when pressed. They don't meet cleanly — they physically bounce apart and back several times over about 1 to 20 milliseconds before settling. So one press produces a signal that flips between 1 and 0 a few times before it stays at 0. The chip reads every one of those flips as real, because they are real.
